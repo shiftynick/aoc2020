@@ -9,8 +9,8 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/nlowe/aoc2020/challenge/day1"
-	"github.com/nlowe/aoc2020/challenge/example"
+	"github.com/shiftynick/aoc2020/challenge/day1"
+	"github.com/shiftynick/aoc2020/challenge/example"
 )
 
 func addDays(root *cobra.Command) {

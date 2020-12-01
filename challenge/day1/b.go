@@ -3,9 +3,8 @@ package day1
 import (
 	"fmt"
 
-	"github.com/nlowe/aoc2020/util"
-
-	"github.com/nlowe/aoc2020/challenge"
+	"github.com/shiftynick/aoc2020/challenge"
+	"github.com/shiftynick/aoc2020/util"
 	"github.com/spf13/cobra"
 )
 
@@ -27,7 +26,7 @@ func b(challenge *challenge.Input) int {
 	}
 
 	for i := range entries {
-		for j := i + 1; j < len(entries)-1; j++ {
+		for j := i + 1; j < len(entries); j++ {
 			for k := j + 1; k < len(entries); k++ {
 				if entries[i]+entries[j]+entries[k] == 2020 {
 					return entries[i] * entries[j] * entries[k]

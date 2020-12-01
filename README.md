@@ -1,6 +1,6 @@
 # Advent of Code 2020
 
-[![](https://github.com/nlowe/aoc2020/workflows/CI/badge.svg)](https://github.com/nlowe/aoc2020/actions) [![Coverage Status](https://coveralls.io/repos/github/nlowe/aoc2020/badge.svg?branch=master)](https://coveralls.io/github/nlowe/aoc2020?branch=master) [![Go Report Card](https://goreportcard.com/badge/github.com/nlowe/aoc2020)](https://goreportcard.com/report/github.com/nlowe/aoc2020) [![License](https://img.shields.io/badge/license-MIT-brightgreen)](./LICENSE)
+[![](https://github.com/shiftynick/aoc2020/workflows/CI/badge.svg)](https://github.com/shiftynick/aoc2020/actions) [![Coverage Status](https://coveralls.io/repos/github/shiftynick/aoc2020/badge.svg?branch=master)](https://coveralls.io/github/shiftynick/aoc2020?branch=master) [![Go Report Card](https://goreportcard.com/badge/github.com/shiftynick/aoc2020)](https://goreportcard.com/report/github.com/shiftynick/aoc2020) [![License](https://img.shields.io/badge/license-MIT-brightgreen)](./LICENSE)
 
 Solutions for the 2020 Advent of Code
 
@@ -20,7 +20,7 @@ To run a solution, use the problem name followed by the path to an input file.
 For example, to run problem 2a:
 
 ```bash
-$ go run ./main.go 2a ./day2/input.txt
+$ go run main.go 1 a -i .\challenge\day1\input.txt
 Answer: 9633
 Took 999.4µs
 ```

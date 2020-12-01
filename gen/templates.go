@@ -12,9 +12,9 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 {{ range $day := seq 1 .N }}
-	"github.com/nlowe/aoc2020/challenge/day{{ $day }}"
+	"github.com/shiftynick/aoc2020/challenge/day{{ $day }}"
 {{- end }}
-	"github.com/nlowe/aoc2020/challenge/example"
+	"github.com/shiftynick/aoc2020/challenge/example"
 )
 
 func addDays(root *cobra.Command) {
@@ -93,8 +93,8 @@ func AddCommandsTo(root *cobra.Command) {
 import (
     "fmt"
 
-    "github.com/nlowe/aoc2020/challenge"
-	"github.com/nlowe/aoc2020/util"
+    "github.com/shiftynick/aoc2020/challenge"
+	"github.com/shiftynick/aoc2020/util"
 	"github.com/spf13/cobra"
 )
 
@@ -118,7 +118,7 @@ func {{ .AB | toLower }}(challenge *challenge.Input) int {
 import (
 	"testing"
 
-	"github.com/nlowe/aoc2020/challenge"
+	"github.com/shiftynick/aoc2020/challenge"
 	"github.com/stretchr/testify/require"
 )
 

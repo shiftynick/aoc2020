@@ -3,9 +3,8 @@ package day1
 import (
 	"fmt"
 
-	"github.com/nlowe/aoc2020/util"
-
-	"github.com/nlowe/aoc2020/challenge"
+	"github.com/shiftynick/aoc2020/challenge"
+	"github.com/shiftynick/aoc2020/util"
 	"github.com/spf13/cobra"
 )
 

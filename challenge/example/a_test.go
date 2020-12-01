@@ -3,7 +3,7 @@ package example
 import (
 	"testing"
 
-	"github.com/nlowe/aoc2020/challenge"
+	"github.com/shiftynick/aoc2020/challenge"
 	"github.com/stretchr/testify/require"
 )
 

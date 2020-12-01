@@ -1,4 +1,4 @@
-module github.com/nlowe/aoc2020
+module github.com/shiftynick/aoc2020
 
 go 1.15
 

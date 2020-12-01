@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/nlowe/aoc2020/challenge/cmd"
+	"github.com/shiftynick/aoc2020/challenge/cmd"
 )
 
 //go:generate go run ./gen

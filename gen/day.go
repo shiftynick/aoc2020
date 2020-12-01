@@ -13,7 +13,7 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/nlowe/aoc2020/util"
+	"github.com/shiftynick/aoc2020/util"
 	"github.com/zellyn/kooky"
 	"github.com/zellyn/kooky/chrome"
 )

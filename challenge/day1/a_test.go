@@ -3,22 +3,14 @@ package day1
 import (
 	"testing"
 
-	"github.com/nlowe/aoc2020/challenge"
+	"github.com/shiftynick/aoc2020/challenge"
 	"github.com/stretchr/testify/require"
 )
 
-const day1example = `1721
-979
-366
-299
-675
-1456
-`
-
 func TestA(t *testing.T) {
-	input := challenge.FromLiteral(day1example)
+	input := challenge.FromLiteral("foobar")
 
 	result := a(input)
 
-	require.Equal(t, 514579, result)
+	require.Equal(t, 42, result)
 }
