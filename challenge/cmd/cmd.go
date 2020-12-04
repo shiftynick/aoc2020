@@ -12,6 +12,7 @@ import (
 	"github.com/shiftynick/aoc2020/challenge/day1"
 	"github.com/shiftynick/aoc2020/challenge/day2"
 	"github.com/shiftynick/aoc2020/challenge/day3"
+	"github.com/shiftynick/aoc2020/challenge/day4"
 	"github.com/shiftynick/aoc2020/challenge/example"
 )
 
@@ -20,6 +21,7 @@ func addDays(root *cobra.Command) {
 	day1.AddCommandsTo(root)
 	day2.AddCommandsTo(root)
 	day3.AddCommandsTo(root)
+	day4.AddCommandsTo(root)
 }
 
 type prof interface {
