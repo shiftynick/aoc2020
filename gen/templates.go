@@ -109,7 +109,13 @@ func {{ .AB | toLower }}Command() *cobra.Command {
 }
 
 func {{ .AB | toLower }}(challenge *challenge.Input) int {
-    return 0
+    var entries []int
+
+	for v := range challenge.Lines() {
+		entries = append(entries, util.MustAtoI(v))
+	}
+
+	return 0
 }
 `
 
