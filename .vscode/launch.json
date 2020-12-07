@@ -11,7 +11,7 @@
             "mode": "auto",
             "program": "${workspaceRoot}/main.go",
             "env": {},
-            "args": ["6", "b", "-i", ".\\challenge\\day6\\input.txt"]
+            "args": ["7", "a", "-i", ".\\challenge\\day7\\input.txt"]
         }
     ]
 }
